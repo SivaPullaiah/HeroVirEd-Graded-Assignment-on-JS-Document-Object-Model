@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Bootstrap 4.5 CDN links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4fe251b024.js"></script>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
-
     <title>Random Quote Generator</title>
 </head>
+
 <body>
-    <div class="quote-container">
-        <h1>Random Quote Generator</h1>
-        <div class="quote">
-            <p>Loading...</p>
+    <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="card" style="max-width: 980px;">
+            <div class="row no-gutters">
+                <div class="col-md-4 back-yellow d-flex align-items-center">
+                    <img src="https://res.cloudinary.com/sivapullaiah/image/upload/v1693927393/quote_ympq0t.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8 apple-white d-flex align-items-center p-3">
+                    <div class="ml-3">
+                        <h1>Random Quote Generator</h1>
+                        <div class="quote">
+                            <p>Loading...</p>
+                        </div>
+                        <button class="btn" id="new-quote-btn">New Quote</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="btn" id="new-quote-btn">New Quote</button>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
